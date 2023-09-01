@@ -67,8 +67,8 @@ Find your dataset and related view coming from firebase
 
 You can process your data with sample codes and make it meaningful for users.
 bash
-- Items.sql
-- Users.sql
+- [Items.sql](https://github.com/engnp/Roofstacks_Case_Solution/blob/4ee1b145458c5d3b1835f3683002b89682c5f6e1/Items.sql)
+- [Users.sql](https://github.com/engnp/Roofstacks_Case_Solution/blob/4ee1b145458c5d3b1835f3683002b89682c5f6e1/Users.sql)
 
 ## Processing Data in BigQuery
 
