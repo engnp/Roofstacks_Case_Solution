@@ -12,12 +12,12 @@ Visualizing Data in Data Studio
 Embedding Data Studio Report in Web App
 ## Technologies Used
 
--Python
--Firebase Admin SDK
--Google Data Studio
--HTML/CSS
--Faker
--pytz
+- Python
+- Firebase Admin SDK
+- Google Data Studio
+- HTML/CSS
+- Faker
+- pytz
 ## Setup
 
 ### Clone the Repository
