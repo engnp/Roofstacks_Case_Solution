@@ -14,6 +14,7 @@ Embedding Data Studio Report in Web App
 
 - Python
 - Firebase Admin SDK
+- BigQuery
 - Google Data Studio
 - HTML/CSS
 - Faker
@@ -40,6 +41,10 @@ pip install firebase-admin Faker pytz
 Go to the Firebase Console and create a new project if you haven't already.
 Navigate to Project settings > Service accounts, then click on "Generate new private key".
 Download the serviceAccountKey.json file and place it in the project directory.
+
+Go to the extensions pane and install “Stream Firestore to BigQuery”  extension for each collection. 
+This extension transfer data from Firestore to Bigquery
+
 ## Generating Mock Data
 
 ### Run the Script
@@ -54,20 +59,42 @@ This script will:
 
 Generate 1000 mock user records in the Users collection.
 Generate between 0 and 7 mock item records for each user in the Items collection.
+
+## Processing Data in BigQuery
+
+Go to the https://console.cloud.google.com/ and select your project which one is related with firebase. 
+Find your dataset and related view coming from firebase
+
+You can process your data with sample codes and make it meaningful for users.
+bash
+- Items.sql
+- Users.sql
+
+## Processing Data in BigQuery
+
+After the view with your processed data are ready. 
+You can use this query to build your model to visualize your data
+bash
+- model_query.sql
+This model include all users & items data
+
 ## Visualizing Data in Data Studio
 
 Navigate to Google Data Studio and create a new report.
 Connect the report to your Firestore database via BigQuery.
 Design your report to visualize the data as you see fit.
+
 ## Embedding Data Studio Report in Web App
 
 ### Get the Embed Code
 
 In Data Studio, go to File > Embed Report, and copy the iframe code.
+
 ### Modify the Web App
 
 Open roofstacks.html in a text editor.
 Replace the existing iframe code with the one you copied from Data Studio.
+
 ### Serve the Web App
 
 Run a simple HTTP server to serve your web app:
