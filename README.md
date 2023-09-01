@@ -97,7 +97,7 @@ Replace the existing iframe code with the one you copied from Data Studio.
 
 ### Serve the Web App
 
-You can go to the file(https://github.com/engnp/Roofstacks_Case_Solution/blob/3d1f005f94069445c18ba1b3e5050110ab9e5002/roofstacks.html) to view sample report
+You can go to the file([roofstacks.html](https://github.com/engnp/Roofstacks_Case_Solution/blob/3d1f005f94069445c18ba1b3e5050110ab9e5002/roofstacks.html)) to view sample report
 
 Run a simple HTTP server to serve your web app:
 
