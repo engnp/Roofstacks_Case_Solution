@@ -23,7 +23,7 @@ pytz
 ### Clone the Repository
 
 bash
-git clone https://github.com/yourusername/firestore_mock_data.git
+git clone https://github.com/engnp/Roofstacks_Case_Solution.git
 cd firestore_mock_data
 
 
@@ -47,13 +47,13 @@ Download the serviceAccountKey.json file and place it in the project directory.
 Execute the Python script to populate your Firestore database with mock data:
 
 bash
-python generate_data.py
+python mock_data_firebase.py
 
 
 This script will:
 
-Generate 100 mock user records in the Users collection.
-Generate between 1 and 7 mock item records for each user in the Items collection.
+Generate 1000 mock user records in the Users collection.
+Generate between 0 and 7 mock item records for each user in the Items collection.
 ## Visualizing Data in Data Studio
 
 Navigate to Google Data Studio and create a new report.
